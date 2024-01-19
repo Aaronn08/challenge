@@ -3,37 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-</head>
-    <h1 class="h1text">Jane Doe</h1>
-    <h2 class="h11text">1234 Main Street, Sometown, CA 93829 </h2>
-    <h2 class="h11text">tel: 555-555-1212, email:jane@doe.com</h2>
-<style>
-    h1.h1text{
-        text-align: center;}
-    h2.h11text{
-        text-align: center;
-        line-height: 0;
-        font-weight: normal;
+    <title>pembahasan_resume</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
         }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+        text-align: center;
+    }
 
+        header nav {
+        margin: 30px 0;
+    }
+        header nav a{
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            margin:0px 20px;
+            color: black;
+            text-transform: uppercase;
+    }
 
-</style>
+        header h1, h4, div {
+        margin-bottom: 15px;
+
+    }
+    
+    section {
+        /* background-color: gray; */
+        width: 800px;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 0px auto;
+    }
+
+    section > div > h3 {
+        /* background-color: salmon; */
+        text-transform:uppercase;
+        margin: 0 0 15px 0; 
+    }
+    
+    div.sub {
+        margin-left: 40px;
+    }
+
+    ul {
+        margin-left: 25px;
+    }
+    /* h4{
+        margin: bottom 15px;
+    }  pake koma , diatas*/
+    </style>
+</head>
 <body>
-    <h2>SUMMARY OF QUALIFICATIONS</h2>
-    <ul>
-        <li>Highly skilled and dedicated ... </li>
-        <li>Provide comprehensive direction ...</li>
-        <li>Computer proficient in ...</li>
-    </ul>
-    <h2>PROFESSIONAL EXPERIENCE</h2>
-    <ul>
-    <h2>Operation Manager, Super Awesome Company</h2>
-    <ul>
-        <li class="litext">Direct All...</li>
-        <li class="litext">Coordinate work...</li>
-        <li class="litext">Generally in charge of everything</li>
-    </ul>
-    </ul>
+    <header>
+        <h1>Jane Doe</h1>
+        <p>1234 Main Street, Sometown CA 93829,</p>
+        <p>tel: 555-555-1212, email:jane@doe.com</p>
+        
+        <nav>
+            <a href="pembahasan_resume.html">🏠home</a>
+            <a href="resume.html">🥰profile</a>
+            <a href="list.html">🙄about</a>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <h3>summary of qualifications</h3>
+            <ul>
+                <li>Highly skilled and dedicated ...</li>
+                <li>Provide comprehensive direction ...</li>
+                <li>Computer proficient in ...</li>
+            </ul>
+        </div>    
+        <div>
+            <h3>professional experience</h3>
+            <div class="sub">
+                <h4>Operation Manager, Super Awesome Company</h4>
+                <ul>
+                    <li>Direct All...</li>
+                    <li>Coordinate work...</li>
+                    <li>Generally in charge of everything</li>
+                </ul>
+        </div>
+    </section>
+
 </body>
 </html>
