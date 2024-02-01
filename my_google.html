@@ -20,12 +20,12 @@
             font-size: 60px;
             margin-bottom: 10px;
             text-align: center;
-            margin-top: 200px;
+            margin-top: 110px;
         }
         form{
             width:800px;
             /* background-color: yellowgreen; */
-            margin:0px auto;
+            margin:0 auto;
             text-align: center;
         }
         form div{
@@ -46,16 +46,24 @@
             height: 36px;
             width: 36px;
             border-radius: 18px;
-            background-color: beige;
+            background-color: gray;
             border: none;
             cursor: pointer;
         }
+
+
+      nav a:hover {
+        background-color: #ddd;
+        text-decoration: underline;
+      }
+
         header{
-            background-color: salmon;
+            /*background-color: salmon;*/
             padding: 30px;
         }
+        
         header nav{
-            background-color: aquamarine;
+            /*background-color: aquamarine;*/
             width: fit-content;
             float :right;
         }
@@ -69,9 +77,9 @@
         }
         header nav a.profile-picture {
     display: inline-block;
-    height: 24px; /* Adjust the height as needed */
-    width: 24px; /* Adjust the width as needed */
-    border-radius: 50%; /* Make it circular */
+    height: 24px; 
+    width: 24px; 
+    border-radius: 50%; 
     overflow: hidden;
     margin-right: 10px;
 }
@@ -87,9 +95,9 @@ header nav a.profile-picture img {
 <body>
     <header>
         <nav>
-            <a href="#">gmail</a>
-            <a href="#">images</a>
-            <a href="#"class="icon">😁</a>
+            <a href="https://mail.google.com/mail/">gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">images</a>
+            <a href="https://labs.google.com/search/"class="icon">🧪</a>
             <a href="#"class="icon">🤩</a>
             <a href="#"class="profile-picture">
             <img src="patrick2.jpeg" alt="Profile Picture">
@@ -97,13 +105,13 @@ header nav a.profile-picture img {
         </nav>
         <section style="clear: right;"></section>
     </header>
-    <h1><span style="color: aquamarine;">G</span><span style="color:blue;">o</span>ogle</h1>
+    <h1><span style="color: blue;">G</span><span style="color:red;">o</span><span style="color: rgb(255, 217, 0);">o</span><span style="color:blue;">g</span><span style="color:green;">l</span><span style="color:red;">e</span></h1>
     <form action = "https//www.google.com/search" target="_blank">
         <div>
             <span class="icon-search">🔎</span>
             <input type="text" name="q" id="" placeholder="Search here">
         </div>
-        <input type="submit" value="🥰">
+        <input type="submit" value="📷">
     </form>
 </body>
 </html>
